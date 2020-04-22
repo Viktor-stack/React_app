@@ -1,0 +1,81 @@
+.inner {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 38px 35px 31px;
+  background-color: #e8603c;
+  position: relative;
+}
+.inner::before {
+  content: "";
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(232, 102, 60, 0.502);
+  bottom: 0;
+  left: -510px;
+}
+.inner::after {
+  content: "";
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(232, 102, 60, 0.502);
+  bottom: 0;
+  right: -510px;
+}
+.itemsTitle {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 28px;
+}
+.footer__items {
+  padding: 5px;
+  width: 268px;
+  p {
+    margin-bottom: 19px;
+  }
+}
+//.footer__items
+//}
+.footer__itemsTwitter {
+  padding: 5px;
+  width: 220px;
+  .twitterDesc {
+    line-height: 14px;
+    margin-bottom: 24px;
+    & + .twitterDesc {
+      margin-top: 21px;
+      margin-bottom: 0;
+    }
+    span {
+      display: block;
+      color: #f1b09b;
+      padding-top: 9px;
+    }
+  }
+}
+.mailing {
+  color: #f1b09b;
+}
+.footer__itemsContacts {
+  padding: 5px;
+  width: 276px;
+}
+.contactsDesc {
+  padding-bottom: 19px;
+}
+.itemsInfo {
+  padding-bottom: 20px;
+  span {
+    display: block;
+  }
+}
+.socialIcons {
+  a {
+    & + a {
+      padding-left: 5px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.items {
+  padding: 15px;
+}
+.title {
+  font-size: 19px;
+  line-height: 20px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.desc {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Bebas Neue", cursive;
+  color: #e8603c;
+}
+.itemsBox {
+  padding: 13px 13px 14px;
+  width: 100%;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.works {
+  width: 220px;
+  min-height: 184px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

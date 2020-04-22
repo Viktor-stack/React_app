@@ -1,0 +1,21 @@
+.menu {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 21px;
+}
+.menu {
+  a {
+    color: #b9b9b9;
+    &:hover {
+      transition: all 0.5s;
+      color: #e8663c;
+    }
+  }
+  li {
+    display: inline-block;
+    & + li {
+      padding-left: 28px;
+    }
+  }
+}

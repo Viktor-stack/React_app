@@ -1,0 +1,24 @@
+.inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0 23px;
+}
+
+
+.header__menu-btn{
+  margin: 10px;
+  display: none;
+  width: 30px;
+}
+.header__menu-row{
+  width: 100%;
+  background-color: #b9b9b9;
+  height: 4px;
+  margin-bottom: 4px;
+}
+.header__menu-btn:hover{
+  background-color: #e8603c;
+  transition: all 0.5s;
+}

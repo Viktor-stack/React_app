@@ -1,0 +1,112 @@
+ /* _addPost() {
+    let newPost = {
+      postImages: this._state.postsPage.newPostDate.postImages,
+      title: this._state.postsPage.newPostDate.title,
+      dataNumber: this._state.postsPage.newPostDate.dataNumber
+    };
+    this._state.postsPage.postData.push(newPost);
+    this._state.postsPage.newPostDate = {
+      title: "",
+      dataNumber: "",
+      postImages: ""
+    };
+    this._rerenderEntireTree(this._state);
+  },
+  _updatePostText(title, dataNumber, postImages) {
+    this._state.postsPage.newPostDate = {
+      title: title,
+      dataNumber: dataNumber,
+      postImages: postImages
+    };
+    this._rerenderEntireTree(this._state);
+  },*/
+
+
+   /*if (action.type === "ADD-POST") {
+				let newPost = {
+					postImages: this._state.postsPage.newPostDate.postImages,
+					title: this._state.postsPage.newPostDate.title,
+					dataNumber: this._state.postsPage.newPostDate.dataNumber
+				};
+				this._state.postsPage.postData.push(newPost);
+				this._state.postsPage.newPostDate = {
+					title: "",
+					dataNumber: "",
+					postImages: ""
+				};
+				this._rerenderEntireTree(this._state);
+			} else if (action.type === "UPDATE-POST-TEXT") {
+				this._state.postsPage.newPostDate = {
+					title: action.title,
+					dataNumber: action.dataNumber,
+					postImages: action.postImages
+				};
+				this._rerenderEntireTree(this._state);
+			}*/
+
+
+			/*const FormPostContainer = props => {
+  let state = props.store.getState().postsPage;
+  let addPost = () => {
+    let action = addPostAC();
+    props.store.dispatch(action);
+  };
+  let onPostChange = (title, number, File) => {
+    let action = updatePostTextAC(title, number, File);
+    props.store.dispatch(action);
+  };
+  return (
+    <FormPost
+      updatePostTextAC={onPostChange}
+      addPostAC={addPost}
+      state={state}
+    />
+  );
+};*/
+
+
+
+/*let newPost = {
+        postImages: state.newPostDate.postImages,
+        title: state.newPostDate.title,
+        dataNumber: state.newPostDate.dataNumber
+      };*/
+
+
+
+       // stateCopy.postData.push(newPost);
+      // stateCopy.
+      // };
+
+
+
+      /*
+const BlogFormContainer = props => {
+  let state = props.store.getState().blogPage;
+  let addBlog = () => {
+    let action = addBlogAC();
+    props.store.dispatch(action);
+  };
+  let onBlogChange = (title,text) => {
+    let action = updateTextBlogAC(title,text);
+    props.store.dispatch(action);
+  };
+  return (
+  	 <BlogForm updateTextBlogAC={onBlogChange} addBlogAC={addBlog} state={state}/>
+  );
+};
+*/
+
+
+/*const BlogContainer = props => {
+  let state = props.store.getState().blogPage;
+  let blogElements = state.blogData.map(blog => (
+    <BlogItems
+      blogItemsIcons={blog.blogItemsIcons}
+      blogTitleItems={blog.blogTitleItems}
+      textDesc={blog.textDesc}
+    />
+  ));
+
+  return <Blogs blogElements={blogElements} state={state} />;
+};*/
